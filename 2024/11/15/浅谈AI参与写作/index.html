@@ -1,6 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head><!-- hexo injector head_begin start --><style type="text/css">.douban-card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+}
+
+.douban-card {
+    display: flex;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.douban-card:hover {
+    text-decoration: none;
+}
+
+.douban-card-bgimg {
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    filter: blur(15px) brightness(0.6);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-img {
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-left:hover .douban-card-img {
+    filter: blur(5px) brightness(0.6);
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.douban-card-left .douban-card-img {
+    transition: all 500ms ease;
+}
+
+.douban-card-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.douban-card-left .douban-card-status {
+    height: 130px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.douban-card-left:hover .douban-card-status {
+    transform: perspective(800px) rotateX(0deg);
+}
+
+.douban-card-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.3;
+    color: antiquewhite;
+}
+
+.douban-card-item {
+    margin-top: 4px;
+}
+</style><!-- hexo injector head_begin end -->
     <meta charset="UTF-8">
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -107,6 +198,12 @@
           
             
               <li class="menu-item">
+                <a href="/categories/life/">Life</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
                 <a href="/tag/">Tags</a>
               </li> 
                    
@@ -153,9 +250,7 @@
         </span>
     </div>
     <div class="post-img">
-        
-            <img src="/images/comment/000001.jpg" alt="featured_image">
-              
+            <div class="h-line-primary"></div>
     </div>
 </div>
     <div class="post-content">
@@ -175,6 +270,11 @@
     <nav class="post-nav">
         <div class="prev-item">
            
+                <div class="icon arrow-left"></div>
+                <div class="post-link">
+                    <a href="/2024/11/16/%E5%8D%81%E4%BA%8C%E6%9D%A1%E7%9D%A1%E7%9C%A0%E5%B0%8F%E8%B4%B4%E5%A3%AB/">Prev</a>
+                </div>
+            
         </div>
         <div class="next-item">
             
