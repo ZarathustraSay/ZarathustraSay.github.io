@@ -10,7 +10,7 @@ html {
     font-size: 18px;
   }
   .flex-container {
-    width: 720px;
+    width: 1000px;
   }
 }
 @media (max-width: 1200px) {
@@ -18,7 +18,7 @@ html {
     font-size: 18px;
   }
   .flex-container {
-    width: 640px;
+    width: 1000px;
   }
 }
 @media (max-width: 688px) {
@@ -1195,4 +1195,54 @@ hr {
 }
 .post-tag:hover a {
   color: #fffcf2;
+}
+.links-container {
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.link-card:hover {
+  transform: scale(1.05);
+}
+.link-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+.link-name {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  text-align: center;
+}
+.link-description {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
 }
